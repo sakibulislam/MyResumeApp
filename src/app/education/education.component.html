@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-header">
+      Education
+    </div>
+    <div class="card-body">
+
+        <div *ngFor="let education of educations">
+
+            <div class="card">
+                <div class="card-header">
+                    {{education.degree}} - {{education.subject}}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{education.institute}}</h5>
+                    <p class="card-text">{{education.start}} - {{education.end}}</p>                
+                </div>
+            </div>
+            <br/>  
+        </div>
+  </div>
