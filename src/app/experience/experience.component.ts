@@ -10,7 +10,7 @@ export class ExperienceComponent implements OnInit {
   experiences = [
     {
       position: "Executive, Enterprise Application, Information & Technology",
-      institute: "M & J Group",
+      institute: "M&J Group",
       address: "Dhaka, Bangladesh",
       start: "July 2018",
       end: "",
